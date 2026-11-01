@@ -1,0 +1,58 @@
+[
+  {
+    "en": "Photosynthesis",
+    "ta": "ஒளிச்சேர்க்கை",
+    "hi": "प्रकाश संश्लेषण",
+    "definition_en": "Process by which green plants synthesize glucose using sunlight, CO2, and water.",
+    "definition_ta": "பசுந்தாவரங்கள் சூரிய ஒளி முன்னிலையில் கார்பன் டை ஆக்சைடு மற்றும் நீரைப் பயன்படுத்தி உணவு தயாரிக்கும் நிகழ்வு.",
+    "definition_hi": "पौधों द्वारा सूर्य के प्रकाश, कार्बन डाइऑक्साइड और जल की उपस्थिति में भोजन बनाने की प्रक्रिया।"
+  },
+  {
+    "en": "Inertia",
+    "ta": "நிலைமம்",
+    "hi": "जड़त्व",
+    "definition_en": "Inherent property of an object to resist any change in its state of rest or uniform motion.",
+    "definition_ta": "ஒரு பொருள் தனது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு.",
+    "definition_hi": "किसी वस्तु का वह गुण जो उसकी गति या विराम की अवस्था में परिवर्तन का विरोध करता है।"
+  },
+  {
+    "en": "Force",
+    "ta": "விசை",
+    "hi": "बल",
+    "definition_en": "An external push or pull that changes or tends to change the state of rest or motion of a body.",
+    "definition_ta": "ஒரு பொருளின் ஓய்வு நிலையை அல்லது சீரான இயக்க நிலையை மாற்றும் புற உந்துதல் அல்லது இழுத்தல்.",
+    "definition_hi": "वह बाह्य प्रभाव (धक्का या खिंचाव) जो किसी वस्तु की गति या विराम अवस्था को परिवर्तित करता है।"
+  },
+  {
+    "en": "Xylem",
+    "ta": "சைலம்",
+    "hi": "जाइलम",
+    "definition_en": "Vascular plant tissue that conducts water and dissolved minerals upward from roots.",
+    "definition_ta": "வேரிலிருந்து நீர் மற்றும் கனிமக் கரைசலை மேல்நோக்கிக் கடத்தும் தாவரக் கடத்துத் திசு.",
+    "definition_hi": "संवहनी ऊतक जो जड़ों से जल और खनिजों को पौधों के ऊपरी भागों तक पहुँचाता है।"
+  },
+  {
+    "en": "Phloem",
+    "ta": "புளோயம்",
+    "hi": "फ्लोएम",
+    "definition_en": "Vascular plant tissue that transports synthesized food (sugars) throughout the plant.",
+    "definition_ta": "இலைகளில் தயாரிக்கப்பட்ட உணவைத் தாவரத்தின் பிற பாகங்களுக்குக் கடத்தும் திசு.",
+    "definition_hi": "संवहनी ऊतक जो पत्तियों में बने भोजन को पौधे के विभिन्न भागों में पहुँचाता है।"
+  },
+  {
+    "en": "Reflection of Light",
+    "ta": "ஒளி எதிரொளிப்பு",
+    "hi": "प्रकाश का परावर्तन",
+    "definition_en": "Bouncing back of light rays into the same medium when they strike a smooth surface.",
+    "definition_ta": "ஒளிக்கதிர் பளபளப்பான பரப்பில் பட்டு மீண்டும் அதே ஊடகத்தில் திரும்பி வரும் நிகழ்வு.",
+    "definition_hi": "प्रकाश की किरण का किसी चमकदार पृष्ठ से टकराकर उसी माध्यम में वापस लौटने की परिघटना।"
+  },
+  {
+    "en": "Balanced Equation",
+    "ta": "சமன்படுத்தப்பட்ட சமன்பாடு",
+    "hi": "संतुलित समीकरण",
+    "definition_en": "Chemical equation where number of atoms of each element is equal on both reactant and product sides.",
+    "definition_ta": "வினைபடு பொருட்கள் மற்றும் வினைவிளை பொருட்கள் ஆகிய இருபுறமும் அணுக்களின் எண்ணிக்கை சமமாக உள்ள சமன்பாடு.",
+    "definition_hi": "वह रासायनिक समीकरण जिसमें अभिकारक और उत्पाद दोनों पक्षों में प्रत्येक तत्व के परमाणुओं की संख्या समान होती है।"
+  }
+]

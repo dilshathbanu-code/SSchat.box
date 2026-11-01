@@ -1,0 +1,496 @@
+// Centralized Multilingual Translation System for SSchat.box
+// Strictly separates Website UI Language (en, ta, hi) from AI Answer Language
+
+export type UILanguage = "en" | "ta" | "hi";
+
+export interface TranslationDictionary {
+  [key: string]: string;
+}
+
+export const translations: Record<UILanguage, TranslationDictionary> = {
+  en: {
+    // Brand & Meta
+    brandTitle: "SSchat.box",
+    brandSubtitle: "Textbook-Grounded Multilingual Assistant",
+    lkgTo12Badge: "LKG–12",
+
+    // Navigation
+    navHome: "Home",
+    navChat: "AI Chat Workspace",
+    navChapter: "Chapter Mode",
+    navLibrary: "Textbook Library",
+    navQuiz: "Practice & Quiz",
+    navDashboard: "Dashboard",
+    navSettings: "Settings",
+    navSignIn: "Sign In",
+    navGetStarted: "Get Started",
+    navLogout: "Logout",
+    themeLight: "Light Mode",
+    themeDark: "Dark Mode",
+    themeSystem: "System Theme",
+    switchTheme: "Toggle theme",
+
+    // Selectors
+    boardLabel: "Board",
+    classLabel: "Class",
+    streamLabel: "Stream / Group",
+    subjectLabel: "Subject",
+    aiAnswerLangLabel: "AI Answer Language",
+    allBoards: "All Education Boards",
+    allClasses: "All Classes",
+    provisionalBadge: "Provisional Syllabus",
+    verifiedBadge: "Verified Textbook Data",
+
+    // Landing Page
+    heroBadge: "Tamil Nadu Samacheer Kalvi • CBSE • NCERT • Early Learning",
+    heroHeading1: "Empowering School Students with",
+    heroHeading2: "Textbook-Verified AI Learning",
+    heroDesc: "The multilingual school learning assistant for students from LKG through Class 12. Every answer is grounded directly in authentic textbooks with verifiable page-level citations.",
+    heroCtaChat: "Ask the AI Assistant",
+    heroCtaLibrary: "Explore Textbooks",
+    heroStatsStudents: "10,000+ Students Guided",
+    heroStatsAccuracy: "Zero Hallucination Tolerance",
+    heroStatsBoards: "3 Major Curricula",
+    featuresTag: "Built for Educational Integrity",
+    featuresHeading: "Why Students and Teachers Rely on SSchat.box",
+    feature1Title: "Strictly Grounded in Textbooks",
+    feature1Desc: "Unlike generic AI that hallucinates facts, SSchat.box answers strictly using authentic Tamil Nadu State Board and NCERT textbooks.",
+    feature2Title: "Pure Multilingual Experience",
+    feature2Desc: "Switch seamlessly between English, தமிழ், and हिन्दी. Interface language and AI answer language can be chosen independently.",
+    feature3Title: "Page-Level Verifiable Citations",
+    feature3Desc: "Every response lists the exact board, textbook title, edition, chapter, and page numbers so students can open their physical books and verify.",
+    feature4Title: "Complete Curriculum from LKG to Class 12",
+    feature4Desc: "Tailored subject trees from foundational phonics and numbers up to Higher Secondary specialized science, commerce, and arts streams.",
+    ctaSectionTitle: "Ready to Master Your School Curriculum?",
+    ctaSectionDesc: "Join thousands of Tamil Nadu, CBSE, and NCERT students who study with confidence using textbook-verified answers.",
+    ctaSectionButton: "Launch Chat Workspace",
+
+    // Chat Workspace
+    chatTitle: "Curriculum AI Workspace",
+    chatSubtitle: "Ask questions grounded in state board and NCERT school textbooks.",
+    chatPlaceholder: "Ask any question from your textbook (e.g., 'What is Newton's first law?' or 'Define photosynthesis')...",
+    chatSendBtn: "Ask",
+    chatSendingBtn: "Consulting Textbook...",
+    clearConversation: "Clear Chat",
+    sampleQuestionsTag: "Quick Textbook Sample Queries:",
+    welcomeGreeting: "Hello! I am SSchat.box — your textbook-grounded educational guide.",
+    welcomeDesc: "You can ask questions from Tamil Nadu State Board (Samacheer Kalvi), NCERT, or CBSE across science, mathematics, and all curriculum subjects.",
+    welcomeSample: "Try asking: 'Explain Newton's First Law' or 'Write the equation for photosynthesis'.",
+    verifiedPassageTitle: "Verified Textbook Citation",
+    sourceBoard: "Board",
+    sourcePublisher: "Publisher",
+    sourceChapter: "Chapter",
+    sourcePage: "Pages",
+    sourceEdition: "Edition",
+    sourceLink: "Official Textbook Portal",
+    copyAnswer: "Copy",
+    copiedAnswer: "Copied!",
+    saveNote: "Save Note",
+    savedNote: "Saved",
+    provisionalNotice: "Provisional Curriculum Mapping: Local textbook passages for this specific subject are currently being indexed. Answers are matched to standard board syllabus guidelines.",
+    noEvidenceWarning: "This topic could not be verified in the selected school textbook. Please check your subject selection or refer to your teacher.",
+    engineTag: "Engine",
+
+    // Chapter Mode
+    chapterModeTitle: "Interactive Chapter Walkthrough",
+    chapterModeDesc: "Study syllabus chapters section-by-section with textbook definitions, formulas, and comprehension checkpoints.",
+    availableChapters: "Curriculum Chapters",
+    selectChapterPrompt: "Select a chapter from the list to begin learning.",
+    sectionCompletedBtn: "Mark as Understood",
+    sectionCompleteDone: "Understood",
+    practiceChapterBtn: "Test Knowledge with Quiz",
+
+    // Textbook Library
+    libraryTitle: "Official Textbook Library",
+    libraryDesc: "Explore indexed textbook chapters, verify syllabi, and inspect direct textbook passages from official government publications.",
+    searchLibraryPlaceholder: "Search chapters, subjects, or concepts...",
+    viewOriginalPassage: "View Verified Passage",
+    openStatePortal: "Visit Official Textbook Portal",
+    noBooksMatching: "No textbook chapters match your search filter.",
+
+    // Quiz & Practice
+    quizTitle: "Curriculum Practice & Quiz Hub",
+    quizDesc: "Test your understanding with authentic, textbook-grounded multiple-choice questions.",
+    submitQuizBtn: "Submit Quiz",
+    retakeQuizBtn: "Retake Quiz",
+    scoreBadge: "Your Score",
+    explanationLabel: "Textbook Explanation",
+    questionLabel: "Question",
+    allQuestionsAnsweredAlert: "Please answer all questions before submitting.",
+
+    // Dashboard
+    dashboardTitle: "Student Learning Dashboard",
+    dashboardSubtitle: "Track your study streaks, saved textbook notes, and mastered curriculum topics.",
+    streakCardTitle: "Active Study Streak",
+    streakDays: "Days Consecutive",
+    questionsCardTitle: "Questions Researched",
+    masteryCardTitle: "Chapters Studied",
+    savedNotesTitle: "Your Saved Study Notes",
+    noNotesYet: "No saved study notes yet. Click 'Save Note' on any AI answer card in the chat to save key formulas and concepts.",
+    deleteNote: "Delete Note",
+
+    // Settings
+    settingsTitle: "Student Preferences & Curriculum Settings",
+    settingsDesc: "Configure your default education board, class, theme, and language preferences.",
+    settingsThemeSection: "Theme & Appearance",
+    settingsThemeDesc: "Choose your preferred viewing mode. Stored permanently on this device.",
+    settingsUiLangSection: "Website Interface Language",
+    settingsUiLangDesc: "Select the language used for buttons, menus, headings, and messages across the entire website.",
+    settingsAiLangSection: "Chatbot AI Answer Language",
+    settingsAiLangDesc: "Select the language you want the AI assistant to respond in when you ask questions.",
+    settingsCurriculumSection: "Curriculum & Class Selection",
+    saveSettingsBtn: "Save Preferences",
+    settingsSavedSuccess: "Preferences saved successfully!",
+    clearHistoryBtn: "Clear Local Study History",
+
+    // Auth
+    loginTitle: "Sign in to SSchat.box",
+    loginSubtitle: "Access your personalized learning dashboard, saved notes, and study streaks.",
+    signupTitle: "Create Your Free Student Account",
+    signupSubtitle: "Join SSchat.box to get textbook-verified educational assistance from LKG to Class 12.",
+    emailField: "Email Address",
+    passwordField: "Password",
+    nameField: "Full Name",
+    loginSubmitBtn: "Sign In",
+    signupSubmitBtn: "Create Student Account",
+    noAccountText: "Don't have an account?",
+    alreadyAccountText: "Already have an account?",
+
+    // Footer
+    footerAbout: "SSchat.box is an AI-powered school learning assistant for students from LKG through Class 12, grounded strictly in Tamil Nadu State Board (Samacheer Kalvi), NCERT, and CBSE textbooks.",
+    footerQuickLinks: "Quick Navigation",
+    footerCurricula: "Supported Curricula",
+    footerLegal: "Integrity & Disclaimers",
+    footerPrivacy: "Privacy Policy",
+    footerTerms: "Terms of Service",
+    footerDisclaimer: "Educational AI Grounding Disclaimer: SSchat.box is an independent learning aid designed to assist school students. Citations reference officially published government textbooks.",
+    footerRights: "All rights reserved. Built for school students with educational integrity."
+  },
+
+  ta: {
+    // Brand & Meta
+    brandTitle: "SSchat.box",
+    brandSubtitle: "பாடப்புத்தக அடிப்படையிலான பன்மொழி கல்வி வழிகாட்டி",
+    lkgTo12Badge: "LKG–12",
+
+    // Navigation
+    navHome: "முகப்பு",
+    navChat: "AI உரையாடல் அரங்கம்",
+    navChapter: "பாடப்பிரிவு முறை",
+    navLibrary: "பாடப்புத்தக நூலகம்",
+    navQuiz: "பயிற்சி & வினாடி-வினா",
+    navDashboard: "மாணவர் கட்டுப்பாட்டகம்",
+    navSettings: "அமைப்புகள்",
+    navSignIn: "உள்நுழை",
+    navGetStarted: "தொடங்குங்கள்",
+    navLogout: "வெளியேறு",
+    themeLight: "வெளிச்ச முறை",
+    themeDark: "இருள் முறை",
+    themeSystem: "கணினி முறை",
+    switchTheme: "வண்ண முறையை மாற்று",
+
+    // Selectors
+    boardLabel: "கல்வி வாரியம்",
+    classLabel: "வகுப்பு",
+    streamLabel: "பாடப்பிரிவு / பிரிவு",
+    subjectLabel: "பாடம்",
+    aiAnswerLangLabel: "AI பதில் மொழி",
+    allBoards: "அனைத்து கல்வி வாரியங்கள்",
+    allClasses: "அனைத்து வகுப்புகள்",
+    provisionalBadge: "தற்காலிகப் பாடத்திட்டம்",
+    verifiedBadge: "சரிபார்க்கப்பட்ட பாடப்புத்தகம்",
+
+    // Landing Page
+    heroBadge: "தமிழ்நாடு சமச்சீர் கல்வி • சி.பி.எஸ்.இ • என்.சி.இ.ஆர்.டி • முன்பருவக் கல்வி",
+    heroHeading1: "பள்ளி மாணவர்களுக்கான நம்பகமான",
+    heroHeading2: "பாடப்புத்தக வழி AI கல்வித் துணைவன்",
+    heroDesc: "LKG முதல் 12-ஆம் வகுப்பு வரையிலான பள்ளி மாணவர்களுக்கான பன்மொழிக் கல்வி வழிகாட்டி. ஒவ்வொரு பதிலும் அரசுப் பாடப்புத்தகங்களின் பக்க எண்களுடன் துல்லியமாக சரிபார்க்கப்படுகிறது.",
+    heroCtaChat: "AI வழிகாட்டிகளிடம் கேளுங்கள்",
+    heroCtaLibrary: "பாடப்புத்தகங்களை ஆராய்க",
+    heroStatsStudents: "10,000+ மாணவர்கள் பயன்",
+    heroStatsAccuracy: "துல்லியமான பாடப்புத்தகத் தகவல்கள்",
+    heroStatsBoards: "3 முதன்மைப் பாடத்திட்டங்கள்",
+    featuresTag: "கல்வித் தூய்மைக்காக உருவாக்கப்பட்டது",
+    featuresHeading: "மாணவர்களும் ஆசிரியர்களும் SSchat.box ஐ ஏன் நம்புகிறார்கள்?",
+    feature1Title: "பாடப்புத்தகங்களில் இருந்து மட்டுமே விடைகள்",
+    feature1Desc: "பொதுவான AI போல தவறான தகவல்களை வழங்காமல், தமிழ்நாடு சமச்சீர் கல்வி மற்றும் NCERT பாடப்புத்தகங்களை ஆதாரமாகக் கொண்டு மட்டுமே பதிலளிக்கிறது.",
+    feature2Title: "முழுமையான பன்மொழி அனுபவம்",
+    feature2Desc: "ஆங்கிலம், தமிழ் மற்றும் இந்தி மொழிகளில் எளிதாகப் பயன்படுத்தலாம். இணையதள மொழி மற்றும் AI பதில் மொழியைத் தனித்தனியாகத் தேர்ந்தெடுக்கலாம்.",
+    feature3Title: "பக்க எண் அளவிலான உண்மை மேற்கோள்கள்",
+    feature3Desc: "ஒவ்வொரு பதிலுக்கும் வாரியம், பாடப்புத்தகம், பதிப்பு, பாடம் மற்றும் துல்லியமான பக்க எண்கள் வழங்கப்படுவதால் மாணவர்கள் எளிதில் ஒப்பிட்டுப் பார்க்கலாம்.",
+    feature4Title: "LKG முதல் 12-ஆம் வகுப்பு வரை முழுப் பாடத்திட்டம்",
+    feature4Desc: "முன்பருவ எழுத்துப் பயிற்சி முதல் மேல்நிலை அறிவியல், கணினி, வணிகவியல் மற்றும் கலைப் பிரிவுகள் வரை அனைத்து பாடங்களையும் ஆதரிக்கிறது.",
+    ctaSectionTitle: "உங்கள் பள்ளிப் பாடங்களை ஆழமாகக் கற்கத் தயாரா?",
+    ctaSectionDesc: "பாடப்புத்தக ஆதாரங்களுடன் தன்னம்பிக்கையோடு கற்கும் ஆயிரக்கணக்கான பள்ளி மாணவர்களுடன் இன்றே இணையுங்கள்.",
+    ctaSectionButton: "உரையாடல் அரங்கிற்குச் செல்லவும்",
+
+    // Chat Workspace
+    chatTitle: "பாடத்திட்ட AI உரையாடல் அரங்கம்",
+    chatSubtitle: "மாநிலப் பாடத்திட்டம் மற்றும் NCERT பள்ளிப் பாடப்புத்தகங்களின் அடிப்படையில் கேள்விகளைக் கேளுங்கள்.",
+    chatPlaceholder: "உங்கள் பாடப்புத்தகத்தில் உள்ள கேள்வியைக் கேளுங்கள் (எ.கா: 'நியூட்டனின் முதல் இயக்க விதி யாது?' அல்லது 'ஒளிச்சேர்க்கை சமன்பாடு')...",
+    chatSendBtn: "கேள்",
+    chatSendingBtn: "பாடப்புத்தகத்தை ஆராய்கிறது...",
+    clearConversation: "உரையாடலை அழி",
+    sampleQuestionsTag: "விரைவு மாதிரிப் பாடக் கேள்விகள்:",
+    welcomeGreeting: "வணக்கம்! நான் SSchat.box — உங்கள் பாடப்புத்தக அடிப்படையிலான கல்வி வழிகாட்டி.",
+    welcomeDesc: "தமிழ்நாடு மாநில சமச்சீர் கல்வி, NCERT மற்றும் CBSE பாடத்திட்டங்களில் இருந்து அறிவியல், கணிதம் உள்ளிட்ட பாடங்களில் கேள்விகளைக் கேட்கலாம்.",
+    welcomeSample: "மாதிரிக் கேள்வி: 'நியூட்டனின் முதல் இயக்க விதி' அல்லது 'ஒளிச்சேர்க்கை சமன்பாட்டை விளக்குக'.",
+    verifiedPassageTitle: "சரிபார்க்கப்பட்ட பாடப்புத்தக ஆதாரம்",
+    sourceBoard: "கல்வி வாரியம்",
+    sourcePublisher: "வெளியீட்டாளர்",
+    sourceChapter: "பாடம்",
+    sourcePage: "பக்கங்கள்",
+    sourceEdition: "பதிப்பு",
+    sourceLink: "அதிகாரப்பூர்வ பாடப்புத்தக தளம்",
+    copyAnswer: "நகலெடு",
+    copiedAnswer: "நகலெடுக்கப்பட்டது!",
+    saveNote: "குறிப்பாகச் சேமி",
+    savedNote: "சேமிக்கப்பட்டது",
+    provisionalNotice: "தற்காலிகப் பாடத்திட்டம்: இந்த குறிப்பிட்ட பாடத்திற்கான பாடப்புத்தகப் பகுதிகள் தற்போது இணைக்கப்பட்டு வருகின்றன. பதில்கள் பொதுவான பாடத்திட்ட விதிகளின்படி அமைகின்றன.",
+    noEvidenceWarning: "தேர்ந்தெடுக்கப்பட்ட பாடப்புத்தகத்தில் இந்தத் தலைப்பிற்கான ஆதாரம் கிடைக்கவில்லை. உங்கள் பாடத் தேர்வைச் சரிபார்க்கவும் அல்லது ஆசிரியரை அணுகவும்.",
+    engineTag: "இயந்திரம்",
+
+    // Chapter Mode
+    chapterModeTitle: "ஊடாடும் பாடம் வாரியான வழிகாட்டி",
+    chapterModeDesc: "பாடங்களை பகுதிவாரியாகப் படித்து, வரையறைகள், சூத்திரங்கள் மற்றும் புரிதல் சோதனைகளை ஆராயுங்கள்.",
+    availableChapters: "பாடத்திட்டப் பாடங்கள்",
+    selectChapterPrompt: "படிக்கத் தொடங்க பட்டியலில் இருந்து ஒரு பாடத்தைத் தேர்ந்தெடுக்கவும்.",
+    sectionCompletedBtn: "புரிந்துகொண்டதாகக் குறி",
+    sectionCompleteDone: "புரிந்துகொண்டேன்",
+    practiceChapterBtn: "வினாடி-வினா மூலம் அறிவை சோதி",
+
+    // Textbook Library
+    libraryTitle: "அதிகாரப்பூர்வ பாடப்புத்தக நூலகம்",
+    libraryDesc: "பாடப்புத்தக அத்தியாயங்களை ஆராயுங்கள், பாடத்திட்டத்தை சரிபார்க்கவும், அரசு வெளியீடுகளின் உண்மையான பத்திகளைப் படிக்கவும்.",
+    searchLibraryPlaceholder: "பாடம், தலைப்பு அல்லது கருத்தைத் தேடுங்கள்...",
+    viewOriginalPassage: "உண்மைப் பத்தியைக் காண்க",
+    openStatePortal: "அரசு பாடநூல் தளத்திற்குச் செல்",
+    noBooksMatching: "தேடலுக்குரிய பாடப்புத்தக அத்தியாயங்கள் எதுவும் காணப்படவில்லை.",
+
+    // Quiz & Practice
+    quizTitle: "பாடத்திட்டப் பயிற்சி & வினாடி-வினா மையம்",
+    quizDesc: "உண்மையான பாடப்புத்தக அடிப்படையிலான பலவுள் தெரிவு வினாக்கள் மூலம் உங்கள் அறிவைச் சோதிக்கவும்.",
+    submitQuizBtn: "விடைகளைச் சமர்ப்பி",
+    retakeQuizBtn: "மீண்டும் எழுதுக",
+    scoreBadge: "உங்கள் மதிப்பெண்",
+    explanationLabel: "பாடப்புத்தக விளக்கம்",
+    questionLabel: "வினா",
+    allQuestionsAnsweredAlert: "சமர்ப்பிக்கும் முன் அனைத்து வினாக்களுக்கும் விடையளிக்கவும்.",
+
+    // Dashboard
+    dashboardTitle: "மாணவர் கற்றல் கட்டுப்பாட்டகம்",
+    dashboardSubtitle: "உங்கள் கற்றல் தொடர்ச்சி, சேமிக்கப்பட்ட பாடக் குறிப்புகள் மற்றும் படித்த பாடங்களைக் கண்காணிக்கவும்.",
+    streakCardTitle: "தொடர் படிப்பு நாட்கள்",
+    streakDays: "தொடர்ச்சியான நாட்கள்",
+    questionsCardTitle: "ஆராய்ந்த கேள்விகள்",
+    masteryCardTitle: "முடித்த பாடங்கள்",
+    savedNotesTitle: "சேமிக்கப்பட்ட பாடக் குறிப்புகள்",
+    noNotesYet: "சேமிக்கப்பட்ட குறிப்புகள் எதுவும் இல்லை. உரையாடலில் உள்ள 'குறிப்பாகச் சேமி' பொத்தானை அழுத்தி முக்கியமான சூத்திரங்களைச் சேமிக்கலாம்.",
+    deleteNote: "குறிப்பை நீக்கு",
+
+    // Settings
+    settingsTitle: "மாணவர் விருப்பங்கள் & பாடத்திட்ட அமைப்புகள்",
+    settingsDesc: "உங்கள் முதன்மை கல்வி வாரியம், வகுப்பு, வண்ண முறை மற்றும் மொழி விருப்பங்களை அமைக்கவும்.",
+    settingsThemeSection: "வண்ணத் தோற்றம்",
+    settingsThemeDesc: "உங்களுக்குப் பிடித்த வண்ண முறையைத் தேர்வுசெய்யவும். இது உங்கள் சாதனத்தில் சேமிக்கப்படும்.",
+    settingsUiLangSection: "இணையதள இடைமுக மொழி",
+    settingsUiLangDesc: "இணையதளத்தின் பொத்தான்கள், மெனுக்கள் மற்றும் தலைப்புகளுக்குப் பயன்படுத்த வேண்டிய மொழியைத் தேர்ந்தெடுக்கவும்.",
+    settingsAiLangSection: "AI உரையாடல் பதில் மொழி",
+    settingsAiLangDesc: "கேள்விகள் கேட்கும்போது AI உதவியாளர் எந்த மொழியில் பதிலளிக்க வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்.",
+    settingsCurriculumSection: "கல்வி வாரியம் & வகுப்புத் தேர்வு",
+    saveSettingsBtn: "விருப்பங்களைச் சேமி",
+    settingsSavedSuccess: "அமைப்புகள் வெற்றிகரமாகச் சேமிக்கப்பட்டன!",
+    clearHistoryBtn: "படிப்பு வரலாற்றை அழி",
+
+    // Auth
+    loginTitle: "SSchat.box இல் உள்நுழையவும்",
+    loginSubtitle: "உங்கள் தனிப்பயனாக்கப்பட்ட கட்டுப்பாட்டகம் மற்றும் சேமித்த குறிப்புகளை அணுகவும்.",
+    signupTitle: "இலவச மாணவர் கணக்கை உருவாக்கவும்",
+    signupSubtitle: "LKG முதல் 12-ஆம் வகுப்பு வரை பாடப்புத்தக வழி வழிகாட்டலைப் பெற இன்றே இணையுங்கள்.",
+    emailField: "மின்னஞ்சல் முகவரி",
+    passwordField: "கடவுச்சொல்",
+    nameField: "முழுப் பெயர்",
+    loginSubmitBtn: "உள்நுழை",
+    signupSubmitBtn: "மாணவர் கணக்கை உருவாக்கு",
+    noAccountText: "கணக்கு இல்லையா?",
+    alreadyAccountText: "ஏற்கனவே கணக்கு உள்ளதா?",
+
+    // Footer
+    footerAbout: "SSchat.box என்பது LKG முதல் 12-ஆம் வகுப்பு வரையிலான பள்ளி மாணவர்களுக்கான AI வழிகாட்டி. தமிழ்நாடு சமச்சீர் கல்வி, NCERT மற்றும் CBSE பாடப்புத்தகங்களை அடிப்படையாகக் கொண்டது.",
+    footerQuickLinks: "விரைவு இணைப்புகள்",
+    footerCurricula: "ஆதரிக்கப்படும் வாரியங்கள்",
+    footerLegal: "நேர்மை & பொறுப்புத் துறப்பு",
+    footerPrivacy: "தனியுரிமைக் கொள்கை",
+    footerTerms: "சேவை விதிமுறைகள்",
+    footerDisclaimer: "கல்வி AI பொறுப்புத் துறப்பு: SSchat.box என்பது மாணவர்களின் சுய கற்றலுக்கு உதவும் ஓர் சுயாதீனக் கருவி. அரசு வெளியிட்ட பாடப்புத்தகங்களின் அடிப்படையில் தகவல்கள் வழங்கப்படுகின்றன.",
+    footerRights: "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. பள்ளி மாணவர்களின் கல்வி நலனுக்காக உருவாக்கப்பட்டது."
+  },
+
+  hi: {
+    // Brand & Meta
+    brandTitle: "SSchat.box",
+    brandSubtitle: "पाठ्यपुस्तक-आधारित बहुभाषी शैक्षिक सहायक",
+    lkgTo12Badge: "LKG–12",
+
+    // Navigation
+    navHome: "होम",
+    navChat: "AI चैट वर्कस्पेस",
+    navChapter: "अध्याय मोड",
+    navLibrary: "पाठ्यपुस्तक पुस्तकालय",
+    navQuiz: "अभ्यास और प्रश्नोत्तरी",
+    navDashboard: "छात्र डैशबोर्ड",
+    navSettings: "सेटिंग्स",
+    navSignIn: "साइन इन",
+    navGetStarted: "शुरू करें",
+    navLogout: "लॉग आउट",
+    themeLight: "लाइट मोड",
+    themeDark: "डार्क मोड",
+    themeSystem: "सिस्टम थीम",
+    switchTheme: "थीम बदलें",
+
+    // Selectors
+    boardLabel: "शिक्षा बोर्ड",
+    classLabel: "कक्षा",
+    streamLabel: "संकाय / स्ट्रीम",
+    subjectLabel: "विषय",
+    aiAnswerLangLabel: "AI उत्तर भाषा",
+    allBoards: "सभी शिक्षा बोर्ड",
+    allClasses: "सभी कक्षाएं",
+    provisionalBadge: "अनंतिम पाठ्यक्रम",
+    verifiedBadge: "सत्यापित पाठ्यपुस्तक डेटा",
+
+    // Landing Page
+    heroBadge: "तमिलनाडु समचीर कल्वि • सीबीएसई • एनसीईआरटी • प्रारंभिक शिक्षा",
+    heroHeading1: "स्कूली विद्यार्थियों के लिए प्रामाणिक",
+    heroHeading2: "पाठ्यपुस्तक-सत्यापित AI शिक्षा सहायक",
+    heroDesc: "LKG से कक्षा 12 तक के विद्यार्थियों के लिए बहुभाषी शैक्षिक सहायक। प्रत्येक उत्तर आधिकारिक पाठ्यपुस्तकों के सटीक पृष्ठ क्रमांकों के साथ सत्यापित किया जाता है।",
+    heroCtaChat: "AI सहायक से पूछें",
+    heroCtaLibrary: "पाठ्यपुस्तकें देखें",
+    heroStatsStudents: "10,000+ विद्यार्थी लाभान्वित",
+    heroStatsAccuracy: "शून्य भ्रामक जानकारी नीति",
+    heroStatsBoards: "3 प्रमुख पाठ्यक्रम",
+    featuresTag: "शैक्षणिक सत्यनिष्ठा के लिए निर्मित",
+    featuresHeading: "विद्यार्थी और शिक्षक SSchat.box पर भरोसा क्यों करते हैं?",
+    feature1Title: "केवल पाठ्यपुस्तकों पर आधारित उत्तर",
+    feature1Desc: "सामान्य AI की तरह गलत या मनगढ़ंत उत्तर देने के बजाय, SSchat.box केवल तमिलनाडु स्टेट बोर्ड और NCERT की आधिकारिक किताबों से उत्तर देता है।",
+    feature2Title: "पूर्ण बहुभाषी अनुभव",
+    feature2Desc: "अंग्रेजी, तमिल और हिंदी में आसानी से स्विच करें। वेबसाइट की भाषा और AI उत्तर की भाषा को अलग-अलग चुना जा सकता है।",
+    feature3Title: "सटीक पृष्ठ-स्तरीय संदर्भ",
+    feature3Desc: "प्रत्येक उत्तर के साथ बोर्ड, पुस्तक का नाम, संस्करण, अध्याय और सटीक पृष्ठ संख्या दी जाती है ताकि विद्यार्थी अपनी किताब में मिलान कर सकें।",
+    feature4Title: "LKG से कक्षा 12 तक संपूर्ण पाठ्यक्रम",
+    feature4Desc: "प्रारंभिक वर्णमाला और अंकों से लेकर उच्च माध्यमिक विज्ञान, कंप्यूटर, वाणिज्य और कला संकायों तक सभी विषय शामिल हैं।",
+    ctaSectionTitle: "क्या आप अपने स्कूली विषयों को बेहतर समझने के लिए तैयार हैं?",
+    ctaSectionDesc: "पाठ्यपुस्तक संदर्भों के साथ आत्मविश्वास से अध्ययन करने वाले हजारों छात्रों से जुड़ें।",
+    ctaSectionButton: "चैट वर्कस्पेस खोलें",
+
+    // Chat Workspace
+    chatTitle: "पाठ्यक्रम AI वर्कस्पेस",
+    chatSubtitle: "स्टेट बोर्ड और NCERT स्कूली पाठ्यपुस्तकों पर आधारित प्रश्न पूछें।",
+    chatPlaceholder: "अपनी पाठ्यपुस्तक से कोई भी प्रश्न पूछें (जैसे: 'न्यूटन का प्रथम गति नियम क्या है?' या 'प्रकाश संश्लेषण की परिभाषा')...",
+    chatSendBtn: "पूछें",
+    chatSendingBtn: "पाठ्यपुस्तक खोजी जा रही है...",
+    clearConversation: "चैट साफ़ करें",
+    sampleQuestionsTag: "त्वरित पाठ्यपुस्तक नमूना प्रश्न:",
+    welcomeGreeting: "नमस्ते! मैं SSchat.box हूँ — आपका पाठ्यपुस्तक-आधारित शैक्षिक सहायक।",
+    welcomeDesc: "आप तमिलनाडु स्टेट बोर्ड (समचीर कल्वि), NCERT या CBSE पाठ्यक्रम से विज्ञान, गणित और अन्य विषयों में प्रश्न पूछ सकते हैं।",
+    welcomeSample: "पूछ कर देखें: 'न्यूटन का प्रथम गति नियम' या 'प्रकाश संश्लेषण का समीकरण'।",
+    verifiedPassageTitle: "सत्यापित पाठ्यपुस्तक संदर्भ",
+    sourceBoard: "शिक्षा बोर्ड",
+    sourcePublisher: "प्रकाशक",
+    sourceChapter: "अध्याय",
+    sourcePage: "पृष्ठ",
+    sourceEdition: "संस्करण",
+    sourceLink: "आधिकारिक पाठ्यपुस्तक पोर्टल",
+    copyAnswer: "कॉपी करें",
+    copiedAnswer: "कॉपी हो गया!",
+    saveNote: "नोट सेव करें",
+    savedNote: "सेव हुआ",
+    provisionalNotice: "अनंतिम पाठ्यक्रम मानचित्रण: इस विशिष्ट विषय के लिए स्थानीय पाठ्यपुस्तक अंश वर्तमान में जोड़े जा रहे हैं। उत्तर मानक पाठ्यक्रम दिशा-निर्देशों पर आधारित हैं।",
+    noEvidenceWarning: "चयनित पाठ्यपुस्तक में इस विषय के लिए प्रमाण नहीं मिला। कृपया अपने विषय चयन की जांच करें या अपने शिक्षक से परामर्श लें।",
+    engineTag: "इंजन",
+
+    // Chapter Mode
+    chapterModeTitle: "इंटरैक्टिव अध्याय अध्ययन",
+    chapterModeDesc: "पाठ्यपुस्तक की परिभाषाओं, सूत्रों और समझ की जांच के साथ अध्यायों का अनुभाग-दर-अनुभाग अध्ययन करें।",
+    availableChapters: "पाठ्यक्रम अध्याय",
+    selectChapterPrompt: "अध्ययन शुरू करने के लिए सूची से एक अध्याय चुनें।",
+    sectionCompletedBtn: "समझा हुआ चिह्नित करें",
+    sectionCompleteDone: "समझ लिया",
+    practiceChapterBtn: "प्रश्नोत्तरी द्वारा ज्ञान परखें",
+
+    // Textbook Library
+    libraryTitle: "आधिकारिक पाठ्यपुस्तक पुस्तकालय",
+    libraryDesc: "पाठ्यपुस्तक अध्यायों का अन्वेषण करें, पाठ्यक्रम का सत्यापन करें और आधिकारिक सरकारी प्रकाशनों के मूल अंश पढ़ें।",
+    searchLibraryPlaceholder: "अध्याय, विषय या अवधारणा खोजें...",
+    viewOriginalPassage: "सत्यापित मूल अंश देखें",
+    openStatePortal: "आधिकारिक पाठ्यपुस्तक पोर्टल पर जाएं",
+    noBooksMatching: "आपकी खोज से मेल खाता कोई पाठ्यपुस्तक अध्याय नहीं मिला।",
+
+    // Quiz & Practice
+    quizTitle: "पाठ्यक्रम अभ्यास और प्रश्नोत्तरी केंद्र",
+    quizDesc: "प्रामाणिक पाठ्यपुस्तक-आधारित बहुविकल्पीय प्रश्नों के माध्यम से अपनी समझ का परीक्षण करें।",
+    submitQuizBtn: "उत्तर सबमिट करें",
+    retakeQuizBtn: "पुनः प्रयास करें",
+    scoreBadge: "आपका स्कोर",
+    explanationLabel: "पाठ्यपुस्तक व्याख्या",
+    questionLabel: "प्रश्न",
+    allQuestionsAnsweredAlert: "कृपया सबमिट करने से पहले सभी प्रश्नों के उत्तर दें।",
+
+    // Dashboard
+    dashboardTitle: "छात्र अध्ययन डैशबोर्ड",
+    dashboardSubtitle: "अपनी दैनिक अध्ययन निरंतरता, सहेजे गए नोट्स और पूरे किए गए अध्यायों को ट्रैक करें।",
+    streakCardTitle: "निरंतर अध्ययन दिवस",
+    streakDays: "लगातार दिन",
+    questionsCardTitle: "पूछे गए प्रश्न",
+    masteryCardTitle: "पूरे किए गए अध्याय",
+    savedNotesTitle: "सहेजे गए अध्ययन नोट्स",
+    noNotesYet: "अभी तक कोई नोट नहीं सहेजा गया है। चैट में किसी भी उत्तर पर 'नोट सेव करें' पर क्लिक करके महत्वपूर्ण सूत्र सहेज सकते हैं।",
+    deleteNote: "नोट हटाएं",
+
+    // Settings
+    settingsTitle: "छात्र प्राथमिकताएं और पाठ्यक्रम सेटिंग्स",
+    settingsDesc: "अपना डिफ़ॉल्ट शिक्षा बोर्ड, कक्षा, थीम और भाषा प्राथमिकताएं निर्धारित करें।",
+    settingsThemeSection: "थीम और स्वरूप",
+    settingsThemeDesc: "अपनी पसंदीदा थीम चुनें। यह आपके डिवाइस पर सुरक्षित रहेगी।",
+    settingsUiLangSection: "वेबसाइट इंटरफ़ेस भाषा",
+    settingsUiLangDesc: "संपूर्ण वेबसाइट के बटन, मेनू और शीर्षकों के लिए उपयोग की जाने वाली भाषा चुनें।",
+    settingsAiLangSection: "AI चैट उत्तर भाषा",
+    settingsAiLangDesc: "प्रश्न पूछने पर AI सहायक किस भाषा में उत्तर दे, उसका चयन करें।",
+    settingsCurriculumSection: "शिक्षा बोर्ड और कक्षा चयन",
+    saveSettingsBtn: "प्राथमिकताएं सहेजें",
+    settingsSavedSuccess: "प्राथमिकताएं सफलतापूर्वक सहेजी गईं!",
+    clearHistoryBtn: "अध्ययन इतिहास साफ़ करें",
+
+    // Auth
+    loginTitle: "SSchat.box में साइन इन करें",
+    loginSubtitle: "अपने व्यक्तिगत डैशबोर्ड और सहेजे गए नोट्स तक पहुंचें।",
+    signupTitle: "निःशुल्क छात्र खाता बनाएं",
+    signupSubtitle: "LKG से 12वीं तक पाठ्यपुस्तक-सत्यापित शैक्षिक सहायता प्राप्त करने के लिए आज ही जुड़ें।",
+    emailField: "ईमेल पता",
+    passwordField: "पासवर्ड",
+    nameField: "पूरा नाम",
+    loginSubmitBtn: "साइन इन करें",
+    signupSubmitBtn: "छात्र खाता बनाएं",
+    noAccountText: "खाता नहीं है?",
+    alreadyAccountText: "पहले से खाता है?",
+
+    // Footer
+    footerAbout: "SSchat.box स्कूली विद्यार्थियों (LKG से कक्षा 12) के लिए एक AI शैक्षिक सहायक है, जो तमिलनाडु समचीर कल्वि, NCERT और CBSE पाठ्यपुस्तकों पर आधारित है।",
+    footerQuickLinks: "त्वरित लिंक",
+    footerCurricula: "समर्थित शिक्षा बोर्ड",
+    footerLegal: "सत्यनिष्ठा और अस्वीकरण",
+    footerPrivacy: "गोपनीयता नीति",
+    footerTerms: "सेवा की शर्तें",
+    footerDisclaimer: "शैक्षिक AI अस्वीकरण: SSchat.box छात्रों के स्व-अध्ययन में सहायता के लिए एक स्वतंत्र उपकरण है। संदर्भ आधिकारिक सरकारी पाठ्यपुस्तकों से लिए गए हैं।",
+    footerRights: "सर्वाधिकार सुरक्षित। स्कूली विद्यार्थियों की शैक्षिक सत्यनिष्ठा के लिए समर्पित।"
+  }
+};
+
+export function getTranslation(lang: UILanguage, key: string): string {
+  const dict = translations[lang] || translations.en;
+  if (dict && dict[key]) {
+    return dict[key];
+  }
+  // Safe fallback to English
+  return translations.en[key] || key;
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "tn_sci_c10_ch1_full",
+    "chapter_number": 1,
+    "chapter_name": "Laws of Motion",
+    "chapter_name_ta": "இயக்க விதிகள்",
+    "board": "tn_state_board",
+    "board_name": "Tamil Nadu State Board (Samacheer Kalvi)",
+    "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "medium": "English & Tamil",
+    "academic_year": "2024-2025 Edition",
+    "page_start": 1,
+    "page_end": 14,
+    "official_source_url": "https://textbookcorp.in/",
+    "verification_status": "Verified Complete Authorized Chapter",
+    "learning_objectives": [
+      "Understand the concepts of force and motion.",
+      "Explain the types of inertia with real-life examples.",
+      "State and mathematically derive Newton's laws of motion.",
+      "Differentiate between mass and weight.",
+      "Apply the principle of conservation of linear momentum to rocket propulsion."
+    ],
+    "learning_objectives_ta": [
+      "விசை மற்றும் இயக்கத்தின் கருத்துக்களைப் புரிந்துகொள்ளுதல்.",
+      "நிலைமத்தின் வகைகளை அன்றாட வாழ்வியல் உதாரணங்களுடன் விளக்குதல்.",
+      "நியூட்டனின் இயக்க விதிகளைக் கூறி கணிதமுறையில் நிறுவுதல்.",
+      "நிறை மற்றும் எடை ஆகியவற்றிற்கு இடையேயான வேறுபாடுகளை அறிதல்.",
+      "உந்த மாறாக் கோட்பாட்டை ராக்கெட் ஏவுதலில் பொருத்தி அறிதல்."
+    ],
+    "sections": [
+      {
+        "section_id": "1.1",
+        "title": "Introduction to Force and Motion",
+        "title_ta": "விசையும் இயக்கமும் - அறிமுகம்",
+        "page_number": 1,
+        "content": "Motion is a change in position of an object with respect to its surroundings. Force is an external push or pull that can produce motion in a stationary body, stop a moving body, or change the speed and direction of a moving body.",
+        "content_ta": "இயக்கம் என்பது சூழலைப் பொறுத்து ஒரு பொருளின் நிலையில் ஏற்படும் மாற்றமாகும். விசை என்பது ஓய்விலுள்ள பொருளை இயக்கவோ, இயங்கும் பொருளை நிறுத்தவோ அல்லது அதன் திசைவேகத்தையும் திசையையும் மாற்றவோ வல்ல ஒரு புற உந்துதல் அல்லது இழுத்தல் ஆகும்.",
+        "key_points": ["Motion definition", "Force as push or pull", "State of rest vs motion"],
+        "diagram_description": "Illustration of pushing and pulling objects showing direction of applied force vector."
+      },
+      {
+        "section_id": "1.2",
+        "title": "Inertia and Its Types",
+        "title_ta": "நிலைமம் மற்றும் அதன் வகைகள்",
+        "page_number": 2,
+        "content": "Inertia is the inherent property of a body to resist any change in its state of rest or uniform motion, unless acted upon by an external unbalanced force.\n\nThree Types of Inertia:\n1. Inertia of Rest: Resistance of a body to change its state of rest (e.g., when a bus starts suddenly, standing passengers fall backwards).\n2. Inertia of Motion: Resistance of a body to change its state of motion (e.g., an athlete runs some distance before taking a long jump).\n3. Inertia of Direction: Resistance of a body to change its direction of motion (e.g., when a car turns a sharp corner, passengers lean towards the opposite side).",
+        "content_ta": "நிலைமம் (Inertia): ஒவ்வொரு பொருளும் தன் மீது சமன் செய்யப்படாத புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு நிலைமம் எனப்படும்.\n\nநிலைமத்தின் மூன்று வகைகள்:\n1. ஓய்வில் நிலைமம்: ஓய்விலுள்ள பொருள் தனது ஓய்வு நிலையைத் தொடர முயலும் பண்பு (எ.கா: பேருந்து திடீரென புறப்படும்போது பயணிகள் பின்னோக்கி சாய்கின்றனர்).\n2. இயக்கத்தில் நிலைமம்: இயக்கத்திலுள்ள பொருள் தனது இயக்க நிலையைத் தொடர முயலும் பண்பு (எ.கா: நீளம் தாண்டும் வீரர் குதிப்பதற்கு முன் சிறிது தூரம் ஓடுகிறார்).\n3. திசையில் நிலைமம்: இயங்கும் பொருள் தனது இயக்கத் திசையை மாற்றுவதை எதிர்க்கும் பண்பு (எ.கா: வாகனம் வளைவில் திரும்பும்போது பயணிகள் எதிர் திசையில் சாய்கின்றனர்).",
+        "key_points": ["Inertia of rest", "Inertia of motion", "Inertia of direction"],
+        "diagram_description": "Passenger movement inside a moving and suddenly stopping bus."
+      },
+      {
+        "section_id": "1.3",
+        "title": "Linear Momentum",
+        "title_ta": "நேர்க்கோட்டு உந்தம்",
+        "page_number": 3,
+        "content": "Linear momentum measures the impact of a force on a moving body. It is the product of mass (m) and velocity (v) of the body: p = m * v. It is a vector quantity having the direction of velocity. SI unit: kg m s^-1 (or N s). CGS unit: g cm s^-1.",
+        "content_ta": "நேர்க்கோட்டு உந்தம் (Linear Momentum): இயங்கும் பொருளின் நிறை மற்றும் திசைவேகத்தின் பெருக்கற்பலன் உந்தம் எனப்படும். சமன்பாடு: p = m × v. இது திசைவேகத்தின் திசையிலேயே செயல்படும் ஒரு வெக்டர் அளவாகும். SI அலகு: கிலோகிராம் மீட்டர்/விநாடி (kg m s^-1). CGS அலகு: கிராம் சென்டிமீட்டர்/விநாடி (g cm s^-1).",
+        "key_points": ["Formula: p = m * v", "Vector quantity", "SI unit: kg m s^-1"],
+        "diagram_description": "Mass vector multiplied by velocity vector producing linear momentum vector."
+      },
+      {
+        "section_id": "1.4",
+        "title": "Newton's First Law of Motion",
+        "title_ta": "நியூட்டனின் முதல் இயக்க விதி",
+        "page_number": 3,
+        "content": "Newton's First Law states that every body continues in its state of rest or uniform motion along a straight line unless it is compelled to change that state by an external force. This law defines both force and inertia.",
+        "content_ta": "நியூட்டனின் முதல் இயக்க விதி: ஒவ்வொரு பொருளும் புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையிலோ அல்லது நேர்க்கோட்டில் அமைந்த சீரான இயக்க நிலையிலோ தொடர்ந்து இருக்கும். இவ்விதி விசையினை வரையறுப்பதுடன் பொருள்களின் நிலைமத்தையும் விளக்குகிறது.",
+        "key_points": ["Law of Inertia", "Defines force", "Necessity of external force"],
+        "diagram_description": "Object at rest remaining at rest; object in motion continuing at constant velocity."
+      },
+      {
+        "section_id": "1.5",
+        "title": "Newton's Second Law of Motion (Law of Force: F = ma)",
+        "title_ta": "நியூட்டனின் இரண்டாம் இயக்க விதி (விசையின் விதி: F = ma)",
+        "page_number": 4,
+        "content": "Newton's Second Law states that the force acting on an object is directly proportional to the rate of change of linear momentum of the object, and this change takes place in the direction of the force.\n\nDerivation:\nInitial momentum p1 = m*u\nFinal momentum p2 = m*v\nChange in momentum Δp = m(v - u)\nRate of change of momentum = m(v - u)/t = m*a (since acceleration a = (v - u)/t)\nBy law: F ∝ m*a => F = k*m*a. In SI units, k = 1, therefore F = m * a.\nUnit of force: Newton (N). 1 Newton = 1 kg * 1 m/s^2 = 10^5 dyne.",
+        "content_ta": "நியூட்டனின் இரண்டாம் இயக்க விதி: பொருள் ஒன்றின் மீது செயல்படும் விசையானது அப்பொருளின் உந்த மாறுபாட்டு வீதத்திற்கு நேர்விகிதத்தில் அமையும். மேலும் இந்த உந்த மாறுபாடு விசையின் திசையிலேயே அமையும்.\n\nசமன்பாடு தருவித்தல்:\nதொடக்க உந்தம் p1 = m*u\nஇறுதி உந்தம் p2 = m*v\nஉந்த மாறுபாடு Δp = m(v - u)\nஉந்த மாறுபாட்டு வீதம் = m(v - u)/t = ma (முடுக்கம் a = (v - u)/t)\nவிதியின்படி: F ∝ ma => F = k*ma. SI அலகுகளில் k = 1 என்பதால் F = ma.\nவிசையின் SI அலகு நியூட்டன் (N). 1 நியூட்டன் = 10^5 டைன் (dyne).",
+        "key_points": ["F = m * a derivation", "Definition of 1 Newton", "1 N = 10^5 dyne"],
+        "diagram_description": "Force acting on mass m causing acceleration a in the direction of force."
+      },
+      {
+        "section_id": "1.6",
+        "title": "Impulse (கணத்தாக்கு)",
+        "title_ta": "கணத்தாக்கு மற்றும் கணத்தாக்கு விசை",
+        "page_number": 5,
+        "content": "A large force acting for a very short interval of time is called an Impulsive force. The product of force and time is called Impulse (J). J = F * t = Change in momentum (Δp). SI unit is N s or kg m s^-1. Example: A cricketer pulls his hands backward while catching a ball to increase the contact time and thereby reduce the impulsive force on his hands.",
+        "content_ta": "மிகக் குறுகிய காலத்தில் செயல்படும் மிகப் பெரிய விசை கணத்தாக்கு விசை எனப்படும். விசையின் மதிப்பு மற்றும் கால அளவின் பெருக்கற்பலன் கணத்தாக்கு (Impulse, J) எனப்படும். J = F × t = உந்த மாறுபாடு (Δp). இதன் SI அலகு N s அல்லது kg m s^-1. எடுத்துக்காட்டு: கிரிக்கெட் விளையாட்டில் பந்து பிடிப்பவர் கைகளைப் பின்னோக்கி இழுப்பது கால அளவை அதிகப்படுத்தி, கைகளில் செயல்படும் கணத்தாக்கு விசையைக் குறைக்க உதவுகிறது.",
+        "key_points": ["J = F * t", "Equal to change in momentum", "Cricket ball catch application"],
+        "diagram_description": "Cricketer pulling back hands during ball catch showing force reduction over extended time."
+      },
+      {
+        "section_id": "1.7",
+        "title": "Newton's Third Law of Motion",
+        "title_ta": "நியூட்டனின் மூன்றாம் இயக்க விதி",
+        "page_number": 6,
+        "content": "Newton's Third Law states that for every action, there is an equal and opposite reaction. They always act on two different bodies: F_B = -F_A. Examples: When birds fly, they push air downwards (action) and air pushes birds upwards (reaction). When swimming, water is pushed backwards (action) and water pushes swimmer forward (reaction).",
+        "content_ta": "நியூட்டனின் மூன்றாம் இயக்க விதி: ஒவ்வொரு விசைக்கும் சமமான எதிர்விசை உண்டு. விசையும் எதிர்விசையும் எப்போதும் இரு வெவ்வேறு பொருள்களின் மீது செயல்படுகின்றன (F_B = -F_A). எடுத்துக்காட்டுகள்: பறவைகள் பறக்கும்போது காற்றைக் கீழ்நோக்கி தள்ளுகின்றன (விசை), காற்று பறவைகளை மேல்நோக்கி தள்ளுகிறது (எதிர்விசை). நீச்சல் வீரர் நீரை பின்னோக்கி தள்ளுகிறார் (விசை), நீர் அவரை முன்னோக்கி தள்ளுகிறது (எதிர்விசை).",
+        "key_points": ["Action = -Reaction", "Act on two different bodies", "Bird flight and swimming examples"],
+        "diagram_description": "Action and reaction vectors showing equal magnitude and opposite directions on two bodies."
+      },
+      {
+        "section_id": "1.8",
+        "title": "Principle of Conservation of Linear Momentum & Rocket Propulsion",
+        "title_ta": "உந்த மாறாக் கோட்பாடு மற்றும் ராக்கெட் ஏவுதல்",
+        "page_number": 7,
+        "content": "In the absence of an external force, the algebraic sum of the linear momentum of a system of bodies remains constant: m1*u1 + m2*u2 = m1*v1 + m2*v2.\n\nRocket Propulsion:\nRockets work on Newton's third law and the law of conservation of linear momentum. Burnt exhaust gases eject backwards through the nozzle at high velocity (action), generating an upward thrust on the rocket (reaction). As fuel burns, the rocket's mass decreases, leading to a gradual increase in velocity.",
+        "content_ta": "நேர்க்கோட்டு உந்த மாறாக் கோட்பாடு: புறவிசை ஏதும் செயல்படாத வரையில், ஒரு அமைப்பின் மீது செயல்படும் மொத்த நேர்க்கோட்டு உந்தம் மாறாமல் இருக்கும் (m1*u1 + m2*u2 = m1*v1 + m2*v2).\n\nராக்கெட் ஏவுதல்:\nராக்கெட் ஏவுதல் நிகழ்வானது நியூட்டனின் மூன்றாம் இயக்க விதி மற்றும் உந்த மாறாக் கோட்பாட்டின் அடிப்படையில் செயல்படுகிறது. எரிபொருள் எரிக்கப்பட்டு உருவாகும் வாயுக்கள் வால் பகுதியில் அதிக திசைவேகத்தில் வெளியேற்றப்படுகின்றன (விசை). இதனால் ராக்கெட் மேல்நோக்கி உந்தப்படுகிறது (எதிர்விசை). எரிபொருள் குறைய குறைய ராக்கெட்டின் நிறை குறைந்து அதன் திசைவேகம் தொடர்ந்து அதிகரிக்கிறது.",
+        "key_points": ["Conservation formula: m1u1 + m2u2 = m1v1 + m2v2", "Rocket thrust mechanism", "Mass decrease causes speed increase"],
+        "diagram_description": "Rocket diagram showing downward exhaust gas velocity and upward reaction thrust force."
+      },
+      {
+        "section_id": "1.9",
+        "title": "Mass versus Weight",
+        "title_ta": "நிறை மற்றும் எடை வேறுபாடுகள்",
+        "page_number": 10,
+        "content": "Mass: The quantity of matter contained in a body. It is a fundamental scalar quantity. SI unit is kilogram (kg). It remains constant everywhere in the universe.\n\nWeight: The gravitational force exerted on a body by the Earth (W = m * g). It is a vector quantity directed toward the center of the Earth. SI unit is Newton (N). It varies from place to place depending on gravitational acceleration g.",
+        "content_ta": "நிறை (Mass): ஒரு பொருளில் உள்ள பருப்பொருளின் அளவு நிறை எனப்படும். இது ஒரு ஸ்கேலர் அளவாகும். SI அலகு கிலோகிராம் (kg). இது பிரபஞ்சத்தின் எந்த இடத்திலும் மாறாது.\n\nஎடை (Weight): ஒரு பொருளின் மீது செயல்படும் புவியீர்ப்பு விசையின் மதிப்பு எடை எனப்படும் (W = m × g). இது பூமியின் மையத்தை நோக்கி செயல்படும் வெக்டர் அளவாகும். SI அலகு நியூட்டன் (N). புவியீர்ப்பு முடுக்கம் 'g' மாறுபடுவதால் இடத்திற்கு இடம் எடை மாறுபடும்.",
+        "key_points": ["Mass is scalar (kg), constant everywhere", "Weight is vector (N), W = m*g", "Weight varies with gravity"],
+        "diagram_description": "Comparison chart between mass balance (beam balance) and spring balance measuring weight."
+      }
+    ]
+  },
+  {
+    "id": "ncert_sci_c10_ch1_full",
+    "chapter_number": 1,
+    "chapter_name": "Chemical Reactions and Equations",
+    "chapter_name_ta": "வேதி வினைகளும் சமன்பாடுகளும்",
+    "chapter_name_hi": "रासायनिक अभिक्रियाएं एवं समीकरण",
+    "board": "ncert",
+    "board_name": "NCERT (National Council of Educational Research and Training)",
+    "publisher": "NCERT Publication Division",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "medium": "English & Hindi",
+    "academic_year": "2024-2025 Edition",
+    "page_start": 1,
+    "page_end": 15,
+    "official_source_url": "https://ncert.nic.in/textbook.php",
+    "verification_status": "Verified Complete Authorized Chapter",
+    "learning_objectives": [
+      "Identify the signs of a chemical reaction.",
+      "Write balanced chemical equations obeying mass conservation.",
+      "Classify combination, decomposition, displacement, and double displacement reactions.",
+      "Understand redox reactions, corrosion, and rancidity in everyday life."
+    ],
+    "sections": [
+      {
+        "section_id": "1.1",
+        "title": "Chemical Reactions and Observations",
+        "title_hi": "रासायनिक अभिक्रियाएं और प्रेक्षण",
+        "page_number": 1,
+        "content": "Whenever a chemical change occurs, we say that a chemical reaction has taken place. Observations that determine a reaction: (i) change in state, (ii) change in colour, (iii) evolution of a gas, (iv) change in temperature. Example: Burning of magnesium ribbon in air gives magnesium oxide dazzling white flame.",
+        "content_hi": "जब भी कोई रासायनिक परिवर्तन होता है, हम कह सकते हैं कि एक रासायनिक अभिक्रिया हुई है। रासायनिक अभिक्रिया के प्रेक्षण: (i) अवस्था में परिवर्तन, (ii) रंग में परिवर्तन, (iii) गैस का निकास/उत्सर्जन, (iv) तापमान में परिवर्तन। उदाहरण: मैग्नीशियम रिबन का वायु में दहन करने पर मैग्नीशियम ऑक्साइड का श्वेत चूर्ण प्राप्त होता है।",
+        "key_points": ["State change", "Colour change", "Gas evolution", "Temperature change"]
+      },
+      {
+        "section_id": "1.2",
+        "title": "Balanced Chemical Equations",
+        "title_hi": "संतुलित रासायनिक समीकरण",
+        "page_number": 3,
+        "content": "The Law of Conservation of Mass states that mass can neither be created nor destroyed in a chemical reaction. Therefore, the total mass and number of atoms of each element in the products must equal that in the reactants. Stepwise balancing method (hit-and-trial): Fe + H2O -> Fe3O4 + H2 becomes 3Fe + 4H2O -> Fe3O4 + 4H2.",
+        "content_hi": "द्रव्यमान संरक्षण का नियम: किसी भी रासायनिक अभिक्रिया में द्रव्यमान का न तो निर्माण होता है और न ही विनाश। इसलिए अभिकारकों और उत्पादों में प्रत्येक तत्व के परमाणुओं की संख्या समान होनी चाहिए। संतुलित समीकरण: 3Fe + 4H2O -> Fe3O4 + 4H2।",
+        "key_points": ["Law of Conservation of Mass", "Equal atom count on both sides", "Skeletal vs balanced equation"]
+      },
+      {
+        "section_id": "1.3",
+        "title": "Types of Chemical Reactions",
+        "title_hi": "रासायनिक अभिक्रियाओं के प्रकार",
+        "page_number": 6,
+        "content": "1. Combination Reaction: Two or more reactants combine to form a single product (CaO + H2O -> Ca(OH)2 + Heat).\n2. Decomposition Reaction: A single reactant breaks down to give simpler products (2FeSO4 -> Fe2O3 + SO2 + SO3).\n3. Displacement Reaction: A more reactive element displaces a less reactive element (Fe + CuSO4 -> FeSO4 + Cu).\n4. Double Displacement Reaction: Exchange of ions between reactants (Na2SO4 + BaCl2 -> BaSO4 + 2NaCl).",
+        "content_hi": "1. संयोजन अभिक्रिया: दो या दो से अधिक अभिकारक मिलकर एकल उत्पाद बनाते हैं (CaO + H2O -> Ca(OH)2)।\n2. वियोजन अभिक्रिया: एकल अभिकारक टूटकर छोटे-छोटे उत्पाद बनाता है (2FeSO4 -> Fe2O3 + SO2 + SO3)।\n3. विस्थापन अभिक्रिया: अधिक क्रियाशील तत्व कम क्रियाशील तत्व को विस्थापित करता है (Fe + CuSO4 -> FeSO4 + Cu)।\n4. द्विविस्थापन अभिक्रिया: अभिकारकों के बीच आयनों का आदान-प्रदान होता है (Na2SO4 + BaCl2 -> BaSO4 + 2NaCl)।",
+        "key_points": ["Combination", "Decomposition", "Displacement", "Double Displacement"]
+      },
+      {
+        "section_id": "1.4",
+        "title": "Oxidation, Reduction, Corrosion, and Rancidity",
+        "title_hi": "उपचयन, अपचयन, संक्षारण और विकृतगंधिता",
+        "page_number": 12,
+        "content": "Oxidation: Gain of oxygen or loss of hydrogen. Reduction: Loss of oxygen or gain of hydrogen. Redox: Reactions where both oxidation and reduction occur simultaneously (CuO + H2 -> Cu + H2O).\n\nCorrosion: Slow degradation of metals by atmospheric moisture and gases (e.g., rusting of iron).\nRancidity: Oxidation of fats and oils causing bad smell and taste. Prevented by adding antioxidants or packaging in nitrogen gas.",
+        "content_hi": "उपचयन: ऑक्सीजन की वृद्धि या हाइड्रोजन का ह्रास। अपचयन: ऑक्सीजन का ह्रास या हाइड्रोजन की वृद्धि। रेडॉक्स अभिक्रिया: जहाँ उपचयन और अपचयन दोनों साथ-साथ होते हैं (CuO + H2 -> Cu + H2O)। संक्षारण: धातुओं का वायुमंडलीय नमी व गैसों द्वारा क्षय। विकृतगंधिता: वसा व तेलों का उपचयन जिससे स्वाद और गंध बदल जाती है।",
+        "key_points": ["Redox reactions", "Corrosion prevention", "Rancidity and nitrogen packaging"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "boards": [
+    {
+      "id": "tn_state_board",
+      "name": "Tamil Nadu State Board (Samacheer Kalvi)",
+      "name_ta": "தமிழ்நாடு மாநிலப் பாடத்திட்டம் (சமச்சீர் கல்வி)",
+      "name_hi": "तमिलनाडु स्टेट बोर्ड (समचीर कल्वि)",
+      "short_name": "TN Samacheer Kalvi",
+      "authority": "Tamil Nadu Textbook and Educational Services Corporation",
+      "portal_url": "https://textbookcorp.in/",
+      "mediums": ["English", "Tamil"],
+      "classes": [
+        "Class 1", "Class 2", "Class 3", "Class 4", "Class 5",
+        "Class 6", "Class 7", "Class 8", "Class 9", "Class 10", "Class 11", "Class 12"
+      ],
+      "active_classes": ["Class 6", "Class 10"]
+    },
+    {
+      "id": "ncert",
+      "name": "NCERT (National Council of Educational Research and Training)",
+      "name_ta": "என்.சி.இ.ஆர்.டி (தேசிய கல்வி ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம்)",
+      "name_hi": "एनसीईआरटी (राष्ट्रीय शैक्षिक अनुसंधान और प्रशिक्षण परिषद)",
+      "short_name": "NCERT National",
+      "authority": "NCERT National Portal",
+      "portal_url": "https://ncert.nic.in/textbook.php",
+      "mediums": ["English", "Hindi"],
+      "classes": [
+        "Class 1", "Class 2", "Class 3", "Class 4", "Class 5",
+        "Class 6", "Class 7", "Class 8", "Class 9", "Class 10", "Class 11", "Class 12"
+      ],
+      "active_classes": ["Class 6", "Class 10"]
+    },
+    {
+      "id": "cbse",
+      "name": "CBSE (Central Board of Secondary Education)",
+      "name_ta": "மத்திய இடைநிலைக் கல்வி வாரியம் (சி.பி.எஸ்.இ)",
+      "name_hi": "केंद्रीय माध्यमिक शिक्षा बोर्ड (सीबीएसई)",
+      "short_name": "CBSE Academic",
+      "authority": "CBSE Academic",
+      "portal_url": "https://cbseacademic.nic.in/",
+      "mediums": ["English", "Hindi"],
+      "classes": [
+        "Class 1", "Class 2", "Class 3", "Class 4", "Class 5",
+        "Class 6", "Class 7", "Class 8", "Class 9", "Class 10", "Class 11", "Class 12"
+      ],
+      "active_classes": ["Class 6", "Class 10"]
+    },
+    {
+      "id": "early_learning",
+      "name": "Early Childhood Education (LKG & UKG)",
+      "name_ta": "முன்பருவக் கல்வி (LKG & UKG)",
+      "name_hi": "प्रारंभिक बाल शिक्षा (LKG और UKG)",
+      "short_name": "Kindergarten / Pre-Primary",
+      "authority": "Foundational Stage Early Childhood Framework",
+      "portal_url": "https://ncert.nic.in/",
+      "mediums": ["English", "Tamil", "Hindi"],
+      "classes": ["LKG", "UKG"],
+      "active_classes": ["LKG", "UKG"]
+    }
+  ],
+  "streams": [
+    {
+      "id": "science_bio",
+      "name": "Science (Biology - Maths)",
+      "name_ta": "அறிவியல் (உயிரியல் - கணிதம்)",
+      "name_hi": "विज्ञान (जीवविज्ञान - गणित)",
+      "subjects": ["Physics", "Chemistry", "Biology", "Mathematics", "English", "Tamil / Regional Language"]
+    },
+    {
+      "id": "science_cs",
+      "name": "Science (Computer Science - Maths)",
+      "name_ta": "அறிவியல் (கணினி அறிவியல் - கணிதம்)",
+      "name_hi": "विज्ञान (कंप्यूटर विज्ञान - गणित)",
+      "subjects": ["Physics", "Chemistry", "Computer Science", "Mathematics", "English", "Tamil / Regional Language"]
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce & Accountancy",
+      "name_ta": "வணிகவியல் மற்றும் கணக்குப்பதிவியல்",
+      "name_hi": "वाणिज्य और लेखा",
+      "subjects": ["Accountancy", "Commerce", "Economics", "Business Mathematics", "English"]
+    },
+    {
+      "id": "arts",
+      "name": "Arts & Humanities",
+      "name_ta": "கலை மற்றும் மனிதவியல்",
+      "name_hi": "कला और मानविकी",
+      "subjects": ["History", "Geography", "Political Science", "Economics", "English"]
+    }
+  ],
+  "subjects": [
+    {
+      "id": "science",
+      "name": "Science",
+      "name_ta": "அறிவியல்",
+      "name_hi": "विज्ञान",
+      "applicable_classes": ["Class 6", "Class 7", "Class 8", "Class 9", "Class 10"]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "name_ta": "கணிதம்",
+      "name_hi": "गणित",
+      "applicable_classes": ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5", "Class 6", "Class 7", "Class 8", "Class 9", "Class 10"]
+    },
+    {
+      "id": "social_science",
+      "name": "Social Science",
+      "name_ta": "சமூக அறிவியல்",
+      "name_hi": "सामाजिक विज्ञान",
+      "applicable_classes": ["Class 6", "Class 7", "Class 8", "Class 9", "Class 10"]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "name_ta": "ஆங்கிலம்",
+      "name_hi": "अंग्रेजी",
+      "applicable_classes": ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5", "Class 6", "Class 7", "Class 8", "Class 9", "Class 10", "Class 11", "Class 12"]
+    },
+    {
+      "id": "tamil",
+      "name": "Tamil",
+      "name_ta": "தமிழ்",
+      "name_hi": "तमिल",
+      "applicable_classes": ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5", "Class 6", "Class 7", "Class 8", "Class 9", "Class 10", "Class 11", "Class 12"]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "name_ta": "இந்தி",
+      "name_hi": "हिन्दी",
+      "applicable_classes": ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5", "Class 6", "Class 7", "Class 8", "Class 9", "Class 10"]
+    },
+    {
+      "id": "environmental_studies",
+      "name": "Environmental Studies (EVS)",
+      "name_ta": "சுற்றுச்சூழல் கல்வி (EVS)",
+      "name_hi": "पर्यावरण अध्ययन (EVS)",
+      "applicable_classes": ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5"]
+    },
+    {
+      "id": "foundational_literacy",
+      "name": "Foundational Literacy & Phonics",
+      "name_ta": "அடிப்படை எழுத்து மற்றும் மொழிப்பயிற்சி",
+      "name_hi": "बुनियादी साक्षरता और वर्णमाला",
+      "applicable_classes": ["LKG", "UKG"]
+    },
+    {
+      "id": "early_numbers",
+      "name": "Early Numbers & Shapes",
+      "name_ta": "எண்கள் மற்றும் வடிவங்கள்",
+      "name_hi": "प्रारंभिक संख्याएँ और आकृतियाँ",
+      "applicable_classes": ["LKG", "UKG"]
+    },
+    {
+      "id": "environmental_wonder",
+      "name": "Environmental Wonder",
+      "name_ta": "சுற்றுச்சூழல் விழிப்புணர்வு",
+      "name_hi": "पर्यावरण जागरूकता",
+      "applicable_classes": ["LKG", "UKG"]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "name_ta": "இயற்பியல்",
+      "name_hi": "भौतिक विज्ञान",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "name_ta": "வேதியியல்",
+      "name_hi": "रसायन विज्ञान",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "name_ta": "உயிரியல்",
+      "name_hi": "जीव विज्ञान",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "computer_science",
+      "name": "Computer Science",
+      "name_ta": "கணினி அறிவியல்",
+      "name_hi": "कंप्यूटर विज्ञान",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "commerce_sub",
+      "name": "Commerce",
+      "name_ta": "வணிகவியல்",
+      "name_hi": "वाणिज्य",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "accountancy",
+      "name": "Accountancy",
+      "name_ta": "கணக்குப்பதிவியல்",
+      "name_hi": "लेखाशास्त्र",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "name_ta": "பொருளாதாரம்",
+      "name_hi": "अर्थशास्त्र",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "business_mathematics",
+      "name": "Business Mathematics",
+      "name_ta": "வணிகக் கணிதம்",
+      "name_hi": "व्यावसायिक गणित",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "name_ta": "வரலாறு",
+      "name_hi": "इतिहास",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "name_ta": "புவியியல்",
+      "name_hi": "भूगोल",
+      "applicable_classes": ["Class 11", "Class 12"]
+    },
+    {
+      "id": "political_science",
+      "name": "Political Science",
+      "name_ta": "அரசியல் அறிவியல்",
+      "name_hi": "राजनीति विज्ञान",
+      "applicable_classes": ["Class 11", "Class 12"]
+    }
+  ],
+  "languages": [
+    { "code": "en", "name": "English", "native": "English" },
+    { "code": "ta", "name": "Tamil", "native": "தமிழ்" },
+    { "code": "hi", "name": "Hindi", "native": "हिन्दी" }
+  ]
+}

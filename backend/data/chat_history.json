@@ -1,0 +1,235 @@
+[
+  {
+    "timestamp": 1793085955.4352615,
+    "query": "நியூட்டனின் முதல் இயக்க விதியைக் கூறுக.",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "ta",
+    "answer": "பாடப்புத்தகத்தின் அடிப்படையில் துல்லியமான விடை:\n\nநியூட்டனின் முதல் இயக்க விதி: ஒவ்வொரு பொருளும் புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையிலோ அல்லது நேர்க்கோட்டில் அமைந்த சீரான இயக்க நிலையிலோ தொடர்ந்து இருக்கும். இவ்விதி விசையினை வரையறுப்பதுடன் பொருள்களின் நிலைமத்தையும் விளக்குகிறது. நிலைமம் (Inertia): ஒவ்வொரு பொருளும் தன் மீது சமன் செய்யப்படாத புறவிசை ஒன்று செயல்படாத வரையில், தமது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு நிலைமம் எனப்படும். நிலைமத்தின் வகைகள்: 1. ஓய்வில் நிலைமம் (ஓய்விலுள்ள ஒரு பொருள் தனது ஓய்வு நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 2. இயக்கத்தில் நிலைமம் (இயக்கத்திலுள்ள ஒரு பொருள் தனது இயக்க நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 3. திசையில் நிலைமம் (இயங்கும் பொருள் தனது இயக்கத் திசையை மாற்றிக் கொள்வதை எதிர்க்கும் பண்பு).",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 2,
+        "page_end": 3,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793086100.5844955,
+    "query": "நிலைமம் என்றால் என்ன?",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "ta",
+    "answer": "பாடப்புத்தகத்தின் அடிப்படையில் துல்லியமான விடை:\n\nநியூட்டனின் முதல் இயக்க விதி: ஒவ்வொரு பொருளும் புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையிலோ அல்லது நேர்க்கோட்டில் அமைந்த சீரான இயக்க நிலையிலோ தொடர்ந்து இருக்கும். இவ்விதி விசையினை வரையறுப்பதுடன் பொருள்களின் நிலைமத்தையும் விளக்குகிறது. நிலைமம் (Inertia): ஒவ்வொரு பொருளும் தன் மீது சமன் செய்யப்படாத புறவிசை ஒன்று செயல்படாத வரையில், தமது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு நிலைமம் எனப்படும். நிலைமத்தின் வகைகள்: 1. ஓய்வில் நிலைமம் (ஓய்விலுள்ள ஒரு பொருள் தனது ஓய்வு நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 2. இயக்கத்தில் நிலைமம் (இயக்கத்திலுள்ள ஒரு பொருள் தனது இயக்க நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 3. திசையில் நிலைமம் (இயங்கும் பொருள் தனது இயக்கத் திசையை மாற்றிக் கொள்வதை எதிர்க்கும் பண்பு).",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 2,
+        "page_end": 3,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793086102.647955,
+    "query": "रासायनिक समीकरण को संतुलित करना क्यों आवश्यक है?",
+    "board": "ncert",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "hi",
+    "answer": "पाठ्यपुस्तक के आधार पर सटीक उत्तर:\n\nकक्षा IX में आपने द्रव्यमान के संरक्षण के नियम का अध्ययन किया था; किसी भी रासायनिक अभिक्रिया में द्रव्यमान का न तो निर्माण होता है और न ही विनाश। अर्थात् किसी भी रासायनिक अभिक्रिया के उत्पाद तत्वों का कुल द्रव्यमान अभिकारक तत्वों के कुल द्रव्यमान के बराबर होता है। दूसरे शब्दों में, रासायनिक अभिक्रिया के पहले एवं उसके पश्चात प्रत्येक तत्व के परमाणुओं की संख्या समान रहती है। इसलिए हमें कंकाली समीकरण को संतुलित करना आवश्यक होता है। उदाहरण: जिंक + सल्फ्यूरिक अम्ल -> जिंक सल्फेट + हाइड्रोजन [Zn + H2SO4 -> ZnSO4 + H2]। भाप के साथ लोहे की अभिक्रिया: 3Fe + 4H2O -> Fe3O4 + 4H2।",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "NCERT (National Council of Educational Research and Training)",
+        "publisher": "NCERT (Publication Division)",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Chemical Reactions and Equations",
+        "page_start": 3,
+        "page_end": 5,
+        "official_source_url": "https://ncert.nic.in/textbook.php",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic NCERT Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793086104.6825693,
+    "query": "How to design a quantum supercomputer with Shor algorithm?",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "ta",
+    "answer": "தேர்ந்தெடுத்த பாடப்புத்தகத்தில் இந்தக் கேள்விக்கான பதிலை உறுதிப்படுத்தப் போதுமான தகவல் கிடைக்கவில்லை. சரியான வகுப்பு அல்லது பாடப்புத்தகத்தைத் தேர்ந்தெடுத்துள்ளீர்களா என்பதைச் சரிபார்க்கவும்.",
+    "has_sufficient_evidence": false,
+    "citations": []
+  },
+  {
+    "timestamp": 1793088351.3866522,
+    "query": "What is its SI unit?",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "en",
+    "answer": "Textbook-verified answer:\n\nNewton's Second Law of Motion states that the force acting on an object is directly proportional to the rate of change of linear momentum of the object and the change in momentum takes place in the direction of the force. Mathematical formulation: Let an object of mass m move with an initial velocity u along a straight line. If an external unbalanced force F acts on it for a duration of time t, its velocity changes to v. Initial momentum p1 = mu. Final momentum p2 = mv. Change in momentum Δp = mv - mu = m(v - u). Rate of change of momentum = Δp / t = m(v - u)/t = ma (since acceleration a = (v - u)/t). According to the law, F ∝ ma, so F = k * ma. In SI units, k = 1, hence F = m * a. Unit of force is Newton (N) in SI system and dyne in CGS system. 1 N = 10^5 dyne.",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 4,
+        "page_end": 5,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793089262.2027743,
+    "query": "hi 12th economics 12th lesson 2marks answer",
+    "board": "tn_state_board",
+    "class_grade": "Class 12",
+    "subject": "Social Science",
+    "language": "en",
+    "answer": "I couldn't verify this answer from the available textbook sources. Please check the textbook edition or provide the relevant page.",
+    "has_sufficient_evidence": false,
+    "citations": []
+  },
+  {
+    "timestamp": 1793090971.5404882,
+    "query": "define commerce",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "ta",
+    "answer": "பாடப்புத்தகத்தின் அடிப்படையில் துல்லியமான விடை:\n\nநியூட்டனின் முதல் இயக்க விதி: ஒவ்வொரு பொருளும் புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையிலோ அல்லது நேர்க்கோட்டில் அமைந்த சீரான இயக்க நிலையிலோ தொடர்ந்து இருக்கும். இவ்விதி விசையினை வரையறுப்பதுடன் பொருள்களின் நிலைமத்தையும் விளக்குகிறது. நிலைமம் (Inertia): ஒவ்வொரு பொருளும் தன் மீது சமன் செய்யப்படாத புறவிசை ஒன்று செயல்படாத வரையில், தமது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு நிலைமம் எனப்படும். நிலைமத்தின் வகைகள்: 1. ஓய்வில் நிலைமம் (ஓய்விலுள்ள ஒரு பொருள் தனது ஓய்வு நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 2. இயக்கத்தில் நிலைமம் (இயக்கத்திலுள்ள ஒரு பொருள் தனது இயக்க நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 3. திசையில் நிலைமம் (இயங்கும் பொருள் தனது இயக்கத் திசையை மாற்றிக் கொள்வதை எதிர்க்கும் பண்பு).",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 2,
+        "page_end": 3,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793090992.3012679,
+    "query": "define commerce",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "ta",
+    "answer": "பாடப்புத்தகத்தின் அடிப்படையில் துல்லியமான விடை:\n\nநியூட்டனின் முதல் இயக்க விதி: ஒவ்வொரு பொருளும் புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையிலோ அல்லது நேர்க்கோட்டில் அமைந்த சீரான இயக்க நிலையிலோ தொடர்ந்து இருக்கும். இவ்விதி விசையினை வரையறுப்பதுடன் பொருள்களின் நிலைமத்தையும் விளக்குகிறது. நிலைமம் (Inertia): ஒவ்வொரு பொருளும் தன் மீது சமன் செய்யப்படாத புறவிசை ஒன்று செயல்படாத வரையில், தமது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு நிலைமம் எனப்படும். நிலைமத்தின் வகைகள்: 1. ஓய்வில் நிலைமம் (ஓய்விலுள்ள ஒரு பொருள் தனது ஓய்வு நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 2. இயக்கத்தில் நிலைமம் (இயக்கத்திலுள்ள ஒரு பொருள் தனது இயக்க நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 3. திசையில் நிலைமம் (இயங்கும் பொருள் தனது இயக்கத் திசையை மாற்றிக் கொள்வதை எதிர்க்கும் பண்பு).",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 2,
+        "page_end": 3,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793091040.333185,
+    "query": "define commerce",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "en",
+    "answer": "Textbook-verified answer:\n\nNewton's First Law states that every body continues in its state of rest or in the state of uniform motion along a straight line unless it is acted upon by some external force. It defines force as well as inertia. Inertia is the inherent property of a body to resist any change in its state of rest or the state of uniform motion, unless it is influenced upon by an external unbalanced force. Types of Inertia: 1. Inertia of rest: The resistance of a body to change its state of rest (e.g., when a bus starts suddenly, passengers fall backwards). 2. Inertia of motion: The resistance of a body to change its state of motion (e.g., an athlete runs some distance before jumping). 3. Inertia of direction: The resistance of a body to change its direction of motion (e.g., when a vehicle takes a sharp turn, passengers lean outward).",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 2,
+        "page_end": 3,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  },
+  {
+    "timestamp": 1793091101.784449,
+    "query": "define commerce",
+    "board": "tn_state_board",
+    "class_grade": "Class 12",
+    "subject": "Social Science",
+    "language": "en",
+    "answer": "I couldn't verify this answer from the available textbook sources. Please check the textbook edition or provide the relevant page.",
+    "has_sufficient_evidence": false,
+    "citations": []
+  },
+  {
+    "timestamp": 1793091557.7540786,
+    "query": "Explain Newton first law of motion",
+    "board": "tn_state_board",
+    "class_grade": "Class 10",
+    "subject": "Science",
+    "language": "ta",
+    "answer": "பாடப்புத்தகத்தின் அடிப்படையில் துல்லியமான விடை:\n\nநியூட்டனின் முதல் இயக்க விதி: ஒவ்வொரு பொருளும் புறவிசை ஏதும் செயல்படாத வரையில், தமது ஓய்வு நிலையிலோ அல்லது நேர்க்கோட்டில் அமைந்த சீரான இயக்க நிலையிலோ தொடர்ந்து இருக்கும். இவ்விதி விசையினை வரையறுப்பதுடன் பொருள்களின் நிலைமத்தையும் விளக்குகிறது. நிலைமம் (Inertia): ஒவ்வொரு பொருளும் தன் மீது சமன் செய்யப்படாத புறவிசை ஒன்று செயல்படாத வரையில், தமது ஓய்வு நிலையையோ அல்லது சீரான இயக்க நிலையையோ மாற்றுவதை எதிர்க்கும் உள்ளார்ந்த பண்பு நிலைமம் எனப்படும். நிலைமத்தின் வகைகள்: 1. ஓய்வில் நிலைமம் (ஓய்விலுள்ள ஒரு பொருள் தனது ஓய்வு நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 2. இயக்கத்தில் நிலைமம் (இயக்கத்திலுள்ள ஒரு பொருள் தனது இயக்க நிலையைத் தொடர்ந்து தக்கவைத்துக் கொள்ளும் பண்பு), 3. திசையில் நிலைமம் (இயங்கும் பொருள் தனது இயக்கத் திசையை மாற்றிக் கொள்வதை எதிர்க்கும் பண்பு).",
+    "has_sufficient_evidence": true,
+    "citations": [
+      {
+        "board": "Tamil Nadu State Board (Samacheer Kalvi)",
+        "publisher": "Tamil Nadu Textbook and Educational Services Corporation",
+        "class_grade": "Class 10",
+        "subject": "Science",
+        "chapter_number": 1,
+        "chapter_name": "Laws of Motion",
+        "page_start": 2,
+        "page_end": 3,
+        "official_source_url": "https://textbookcorp.in/",
+        "academic_year": "2024-2025 Edition",
+        "verification_status": "Verified Authentic Samacheer Kalvi Textbook Passage"
+      }
+    ]
+  }
+]
